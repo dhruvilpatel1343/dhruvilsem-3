@@ -9,7 +9,7 @@ int main()
     int *arr=new int[n];
     cout<<"enter array elements:"<<endl;
 
-    for(i=o;i<n;i++)
+    for(int i=0;i<n;i++)
     {
         cin>>arr[i];
     }
