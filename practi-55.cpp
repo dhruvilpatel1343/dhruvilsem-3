@@ -3,7 +3,7 @@ using namespace std;
 class student
 {
     static int count;
-    public:static void show count()
+    public:static void showcount()
     {
         cout<<"number of object="<<count<<endl;
     }
@@ -19,4 +19,6 @@ int main()
         student s2;
         student s3;
         
+        student::showcount();
+        return 0;
     }

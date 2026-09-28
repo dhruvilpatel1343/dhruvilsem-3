@@ -2,23 +2,14 @@
 using namespace std;
 int main()
 {
-    int n;
-    cout<<"enter size of array:";
-    cin>>n;
+    int a[3]={10,20,30};
+    int *p=a;
 
-    int *arr=new int[n];
-    cout<<"enter array elements:"<<endl;
+    cout<<"first element="<<*p<<endl;
+    p++;
+    cout<<"second element="<<*p<<endl;
+    p++;
+    cout<<"third element="<<*p<<endl;
 
-    for(i=o;i<n;i++)
-    {
-        cin>>arr[i];
-    }
-    cout<<"array element are"<<endl;
-
-    for(int i=0;i<n;i++)
-    {
-        cout<<arr[i]<<"";
-    }
-    delete[]arr;
     return 0;
 }
